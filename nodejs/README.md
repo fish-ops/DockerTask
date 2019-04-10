@@ -9,7 +9,7 @@ $ docker build -t hello-node .
 $ docker run -p 8088:8080 --rm -d hello-node
 
 # 访问测试
-$ curl -i localhost:8080
+$ curl -i localhost:8088
 HTTP/1.1 200 OK
 Date: Sun, 17 Mar 2019 04:21:53 GMT
 Connection: keep-alive
